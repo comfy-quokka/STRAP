@@ -1,0 +1,26 @@
+This algorithm is designed for Structual Reliability Analysis.
+
+* distribution type *
+1 : Normal
+2 : Lognormal
+3 : Gamma
+4 : Shifted Exponential
+5 : Shfited Rayleigh
+6 : Uniform
+
+FORM : 
+- First Order Reliability Method
+
+SORM :
+- Second Order Reliability Method which is computed by curvature fitting
+- Compute FORM and offer Breitung & Imporved Breitung failure probability
+
+System Analysis: 
+- Use Matrix-based System Reliability Method
+- approximated by FORM & Dunnett - Sobel(DS) class
+
+Monte Carlo Simulation
+- Sampling analysis 
+
+Importance Sampling
+- Sample density ~ N(M = weighted sum of u_design, S = S_sample) weight = beta^(-m)
