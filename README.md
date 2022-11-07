@@ -18,4 +18,4 @@ You have to declare some variables to use operator.py file.<br>
 The variable declaration rule can be checked through the input_file.py file.<br>
 User have to download Scipy, Numpy, and Sympy package to operate.<br>
  
-If you have any questions, please send me an email me.
+If you have any questions, please send me an email.
